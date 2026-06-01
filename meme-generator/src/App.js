@@ -83,7 +83,7 @@ function App() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/generate-meme",
+        "https://ai-meme-generator-rvqz.onrender.com/generate-meme",
         {
           method: "POST",
           headers: {
